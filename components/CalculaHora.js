@@ -1,5 +1,4 @@
 function timeStrToMins(strTime) {
-  console.log(strTime);
   if (!strTime) return 1;
 
   let [h, m] = strTime.split(":");
